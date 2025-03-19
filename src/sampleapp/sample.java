@@ -19,8 +19,8 @@ public class sample {
             // Open Internshala
             driver.get("https://internshala.com/");
         driver.findElement(By.className("login-cta")).click();
-        driver.findElement(By.id("modal_email")).sendKeys("piklukundu688@gmail.com");
-        driver.findElement(By.id("modal_password")).sendKeys("Pi@722161", Keys.ENTER);
+        driver.findElement(By.id("modal_email")).sendKeys("your_mail");
+        driver.findElement(By.id("modal_password")).sendKeys("password_of_internshala _account", Keys.ENTER);
 
 
 
